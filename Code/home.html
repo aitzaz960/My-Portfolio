@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        a{
+            color: black;
+        }
+        body{
+            background-image: url("../Images/bg_2.jpg");
+        }
+        .contact-left{
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+        .contact-left a{
+            color:azure;
+        }
+        .contact-right{
+            position:absolute;
+            top: 8px;
+            right: 16px;
+        }
+        .contact-right td{
+            color: azure;
+        }
+        img{
+            border-radius: 40%;
+        }
+        .table_profile{
+            height: 450px;
+        }
+        .container {
+            height: 200px;
+            left: 40px;
+            position: relative;
+        }
+        
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            width: 80%;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 3%;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .button:hover{
+            transform: scale(1.10) perspective(1px)
+        }
+        
+        .button1 {background-color: #4CAF50;} /* Green */
+        .button2 {background-color: #008CBA;} /* Blue */
+        .button3 {background-color: burlywood;}
+        .button4 {background-color: crimson;}
+    </style>
+    <title> Home Page</title>
+</head>
+<body>
+    <div class="contact-left">
+        <table>
+            <tr>
+                <td><img src="../Images/linkdin.png" alt="Linkd In" width="30px" height="30px"></td>
+                <td><a href="https://www.linkedin.com/in/aitzaz-ahmad-1a518719a/">Aitzaz Ahmad</a>"</td>
+            </tr>
+            <tr>
+                <td><img src="../Images/github.png" alt="Github" width="30px" height="30px"> </td>
+                <td><a href="https://github.com/aitzaz960">Aitzaz960</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="contact-right">
+        <table>
+            <tr>
+                <td><img src="../Images/gmail.png" alt="Gmail" width="30px" height="30px"> </td>
+                <td>i180589@nu.edu.pk</td>
+            </tr>
+            <tr>
+                <td><img src="../Images/mobile.png" alt="Mobile" width="30px" height="30px"> </td>
+                <td>+923105036583</td>
+            </tr>
+        </table>
+    </div>
+    <div class="table_profile">
+        <table width=100%>
+            <tr>
+                <td align="center"><img src="../Images/aitzaz_profile.jpg" alt="Aitzaz Profile Picture" width="300px" height="300px"></td>
+            </tr>
+            <tr>
+                <td align="center"><h1>Aitzaz Ahmad</h1></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="center">
+            <button class="button button1"><a href="education.html"><b>Education & Additional Courses</b></a></button>
+            <button class="button button2"><a href="projects.html"><b>Personal Projects & Skills</b></a></button>
+            <button class="button button3"><a href="internships.html"><b>Internships & Summer Courses</b></a></button>
+            <button class="button button4"><a href="gallery.html"><b>Gallery</b></a></button>
+        </div>
+      </div>
+</body>

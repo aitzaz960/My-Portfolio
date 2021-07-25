@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body, html{
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg{
+            background-image: url("../Images/ed_bg_1.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        h2{
+            background-color: gray;
+        }
+        h3{
+            background-color: green;
+        }
+        h4{
+            background-color: hotpink;
+            margin-top: 10px;
+            margin-bottom: 100px;
+        }
+        .major {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
+        .education{
+            list-style-type:none;
+        }
+
+        .courses ul{
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-top: 50px;
+        }
+
+        .courses ul li{
+            list-style: disc;
+            flex: 0 0 50%;
+            color:gainsboro;
+        }
+        p{
+            color:gainsboro;
+        }
+        .container .box { 
+            width:100%; 
+            height: 100%; 
+            display:table; 
+        } 
+        .container .box .box-row { 
+            display:table-row; 
+        } 
+        .container .box .box-cell { 
+            display:table-cell; 
+            width:50%; 
+            padding:10px; 
+        } 
+        .container .box .box-cell.box1 { 
+            width: 60%;
+            text-align:justify; 
+            border-style: solid;
+            border: 5px, cornflowerblue
+        } 
+        .container .box .box-cell.box2 {
+            border-style: solid;
+            border: 5px, cornflowerblue; 
+            text-align:justify 
+        }
+    </style>
+    <title> Education </title>
+</head>
+<body>
+    <div class="bg">
+        <div class="navigation">
+            <ul class="major">
+                <li style="float: left;"><a href="home.html">Home</a></li>
+                <li style="float: left;"><a href="education.html">Education & Additional Courses</a></li>
+                <li style="float: left;"><a href="projects.html">Personal Projects & Skills</a></li>
+                <li style="float: left;"><a href="internships.html">Internships & Summer Courses</a></li>
+                <li style="float: left"><a class="active" href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="container"> 
+		    <div class="box"> 
+			    <div class="box-row"> 
+				    <div class="box-cell box1">
+                        <h1 align="center">Education</h1>
+                        <ul class="education">
+                            <li><h2>National University of Computer and Emerging Sciences Islmabad</h2></li>
+                            <li><h3>Bachelors of Science in Computer Science</h3></li>
+                            <li style="float: left;"><h4>2018-2022</h4></li>
+                            <li style="float: right;"><h4>3.02/4.00</h4></li>
+                        </ul>                    
+                    <div class="courses">
+                        <ul>
+                            <li>Programming Fundamentals</li>
+                            <li>Object Oriented Programming</li>
+                            <li>Data structures</li>
+                            <li>Database Systems</li>
+                            <li>Design and Analysis of Algorithms</li>
+                            <li>Operating Systems</li>
+                            <li>Computer Networks</li>
+                            <li>Software Design and Analysis</li>
+                            <li>Parallel and Distributed Computing</li>
+                            <li>Software Enginnering</li>
+                            <li>Artifical Intelligence</li>
+                            <li>Web Programming</li>
+                        </ul>
+                    </div>
+
+                    <ul class="education">
+                        <li><h2>Fauji Faundition Higher Secondary School Fateh Jang</h2></li>
+                        <li><h3>FSC - Pre Engineering</h3></li>
+                        <li style="float: left;"><h4>2016-2018</h4></li>
+                        <li style="float: right;"><h4>85%</h4></li>
+                    </ul>
+                    <div class="courses">
+                        <ul>
+                            <li>Physics</li>
+                            <li>Chemistry</li>
+                            <li>Mathematics</li>
+                        </ul>
+                    </div>
+                    
+                    <ul class="education">
+                        <li><h2>Zamurrad Memorial Secondary School Fatej Jang</h2></li>
+                        <li><h3>Pre Engineering</h3></li>
+                        <li style="float: left;"><h4>2014-2016</h4></li>
+                        <li style="float: right;"><h4>86%</h4></li>
+                    </ul>
+                    <div class="courses">
+                        <ul>
+                            <li>Computer Science</li>
+                            <li>Mathematics</li>
+                            <li>Chemistry</li>
+                            <li>Physics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-cell box2">
+                    <h1 align="center">Additional Certificates</h1>
+                    <h2>Programming for everybody(getting started with Python)</h2>
+                    <p>
+                        This course was an intrdocutory course about programming in Python. This was first course in the series of 5 courses
+                        called specialization in Python. In this course, the instrcutor tried to show us how programming is being used almost
+                        everywhere around us and then told us about the power Python has compared to other programming languages.
+                    </p>
+                    <h2>Python Data Structures</h2>
+                    <p>
+                        The focus of this course was to introduce us with various useful built-in data structures provided by Python. These 
+                        data structues consited of arrays, lists and dictionaries etc. In addition, the power Python provides through these 
+                        data structures was also discussed in this course.
+                    </p>
+                    <h2>Using Python to access web data</h2>
+                    <p>
+                        In this course, I learned the skills of accesing data on web through the use of Python language. This course provided 
+                        me with the skills of web crawling which in turn has a lot of applications in industry like fetching the emails of the 
+                        employees of any organization etc. 
+                    </p>
+                    <h2>Using databases with Python</h2>
+                    <p>
+                        In this course, I learnt how to interact with databases through Python. In this course, I was taught how to pass SQL queries
+                        to databases with the help of Python. These queries included DDL, DCL and DML. 
+                    </p>
+                    <h2>Capstone: Retrieving, Processing and Visualizing data with Python</h2>
+                    <p>
+                        This was the final course of the series of 5 courses named specialization in Python. This course was a summary of all the
+                        previous 4 courses where we learnt to apply all those skills together and then solving different problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>        
+</body>
